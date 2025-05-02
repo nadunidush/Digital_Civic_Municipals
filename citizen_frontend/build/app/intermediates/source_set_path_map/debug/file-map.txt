@@ -1,0 +1,31 @@
+com.example.complaint_management_system.app-debug-0 C:\OldLapFilesNadun\Nadun folder\NSBM\Third Year\Computing Individual Project\digital_civic\citizen_frontend\android\app\src\debug\res
+com.example.complaint_management_system.app-main-1 C:\OldLapFilesNadun\Nadun folder\NSBM\Third Year\Computing Individual Project\digital_civic\citizen_frontend\android\app\src\main\res
+com.example.complaint_management_system.app-pngs-2 C:\OldLapFilesNadun\Nadun folder\NSBM\Third Year\Computing Individual Project\digital_civic\citizen_frontend\build\app\generated\res\pngs\debug
+com.example.complaint_management_system.app-resValues-3 C:\OldLapFilesNadun\Nadun folder\NSBM\Third Year\Computing Individual Project\digital_civic\citizen_frontend\build\app\generated\res\resValues\debug
+com.example.complaint_management_system.app-packageDebugResources-4 C:\OldLapFilesNadun\Nadun folder\NSBM\Third Year\Computing Individual Project\digital_civic\citizen_frontend\build\app\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.complaint_management_system.app-packageDebugResources-5 C:\OldLapFilesNadun\Nadun folder\NSBM\Third Year\Computing Individual Project\digital_civic\citizen_frontend\build\app\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.complaint_management_system.app-merged_res-6 C:\OldLapFilesNadun\Nadun folder\NSBM\Third Year\Computing Individual Project\digital_civic\citizen_frontend\build\app\intermediates\merged_res\debug
+com.example.complaint_management_system.app-packaged_res-7 C:\OldLapFilesNadun\Nadun folder\NSBM\Third Year\Computing Individual Project\digital_civic\citizen_frontend\build\file_picker\intermediates\packaged_res\debug
+com.example.complaint_management_system.app-packaged_res-8 C:\OldLapFilesNadun\Nadun folder\NSBM\Third Year\Computing Individual Project\digital_civic\citizen_frontend\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\debug
+com.example.complaint_management_system.app-packaged_res-9 C:\OldLapFilesNadun\Nadun folder\NSBM\Third Year\Computing Individual Project\digital_civic\citizen_frontend\build\image_picker_android\intermediates\packaged_res\debug
+com.example.complaint_management_system.app-packaged_res-10 C:\OldLapFilesNadun\Nadun folder\NSBM\Third Year\Computing Individual Project\digital_civic\citizen_frontend\build\path_provider_android\intermediates\packaged_res\debug
+com.example.complaint_management_system.app-jetified-tracing-1.2.0-11 C:\Users\nadun\.gradle\caches\transforms-3\016e5b91b74ad87fb7ba2947e73807fe\transformed\jetified-tracing-1.2.0\res
+com.example.complaint_management_system.app-lifecycle-runtime-2.7.0-12 C:\Users\nadun\.gradle\caches\transforms-3\01ad2e956dc2f4ce1f89342156e1ee10\transformed\lifecycle-runtime-2.7.0\res
+com.example.complaint_management_system.app-jetified-profileinstaller-1.3.1-13 C:\Users\nadun\.gradle\caches\transforms-3\07a98f46628a145356f6dd35dafe8ad3\transformed\jetified-profileinstaller-1.3.1\res
+com.example.complaint_management_system.app-jetified-window-java-1.2.0-14 C:\Users\nadun\.gradle\caches\transforms-3\17b4af98a4534715dc2e8875da797335\transformed\jetified-window-java-1.2.0\res
+com.example.complaint_management_system.app-lifecycle-livedata-2.7.0-15 C:\Users\nadun\.gradle\caches\transforms-3\1ff0580499fb82bffed3eb6871ca2d05\transformed\lifecycle-livedata-2.7.0\res
+com.example.complaint_management_system.app-jetified-core-1.0.0-16 C:\Users\nadun\.gradle\caches\transforms-3\208f9a31c1f1322052e432e0926de8dd\transformed\jetified-core-1.0.0\res
+com.example.complaint_management_system.app-core-runtime-2.2.0-17 C:\Users\nadun\.gradle\caches\transforms-3\3138ae7987055560cd555037972fe52e\transformed\core-runtime-2.2.0\res
+com.example.complaint_management_system.app-fragment-1.7.1-18 C:\Users\nadun\.gradle\caches\transforms-3\3293f69951b58068c5bee5bbc07e0615\transformed\fragment-1.7.1\res
+com.example.complaint_management_system.app-lifecycle-viewmodel-2.7.0-19 C:\Users\nadun\.gradle\caches\transforms-3\4486a480fc850a1cf4d1b810f504a00c\transformed\lifecycle-viewmodel-2.7.0\res
+com.example.complaint_management_system.app-jetified-startup-runtime-1.1.1-20 C:\Users\nadun\.gradle\caches\transforms-3\66cb453d51a548c8a438441aa5c730bd\transformed\jetified-startup-runtime-1.1.1\res
+com.example.complaint_management_system.app-jetified-annotation-experimental-1.4.0-21 C:\Users\nadun\.gradle\caches\transforms-3\7dbbafce1d7bba4d258391609fcb1c28\transformed\jetified-annotation-experimental-1.4.0\res
+com.example.complaint_management_system.app-jetified-core-ktx-1.13.1-22 C:\Users\nadun\.gradle\caches\transforms-3\863da5a78f8126da65a2ad3af2af5ffe\transformed\jetified-core-ktx-1.13.1\res
+com.example.complaint_management_system.app-jetified-lifecycle-livedata-core-ktx-2.7.0-23 C:\Users\nadun\.gradle\caches\transforms-3\95ba19fc55651407535c986b2475de2c\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+com.example.complaint_management_system.app-jetified-window-1.2.0-24 C:\Users\nadun\.gradle\caches\transforms-3\b017a2f7c359cb243c92a55952bf328e\transformed\jetified-window-1.2.0\res
+com.example.complaint_management_system.app-core-1.13.1-25 C:\Users\nadun\.gradle\caches\transforms-3\d5dcda60d08d4e3dca280a023e6e5b8b\transformed\core-1.13.1\res
+com.example.complaint_management_system.app-jetified-lifecycle-process-2.7.0-26 C:\Users\nadun\.gradle\caches\transforms-3\df0e25514b4260a81779f80ebdaef928\transformed\jetified-lifecycle-process-2.7.0\res
+com.example.complaint_management_system.app-jetified-savedstate-1.2.1-27 C:\Users\nadun\.gradle\caches\transforms-3\e99e59d67b0bfbcb6d96a86db336dc07\transformed\jetified-savedstate-1.2.1\res
+com.example.complaint_management_system.app-jetified-activity-1.9.3-28 C:\Users\nadun\.gradle\caches\transforms-3\f7aaf92e356494830697e719b34951f0\transformed\jetified-activity-1.9.3\res
+com.example.complaint_management_system.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-29 C:\Users\nadun\.gradle\caches\transforms-3\fd58dd90c99e6c23452499db8f3e93ee\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+com.example.complaint_management_system.app-lifecycle-livedata-core-2.7.0-30 C:\Users\nadun\.gradle\caches\transforms-3\ffe40836ce57d7423f2208505136ba9c\transformed\lifecycle-livedata-core-2.7.0\res

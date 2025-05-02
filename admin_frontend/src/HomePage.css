@@ -1,0 +1,132 @@
+.category-card {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(135deg, #2F2F2F, #4ECCA3); /* Sleek dark to teal gradient */
+    color: #FFFFFF; /* White text for clarity and sharpness */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #4ECCA3; /* Teal highlight for engagement */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar-links li a:hover {
+    color: #FF8C42; /* Warm orange for hover effect */
+  }
+  
+  .category-selector {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #FF8C42; /* Warm orange for dropdown */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #4ECCA3, #FF8C42); /* Dynamic and fresh gradient */
+  }
+  
+  .hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .category-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .category-card {
+    background: #323232; /* Neutral dark gray for universal appeal */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .category-card h2 {
+    font-size: 24px;
+    color: #4ECCA3; /* Teal highlight for titles */
+    margin-bottom: 10px;
+  }
+  
+  .category-card p {
+    font-size: 16px;
+    color: #A5B4FC; /* Soft light blue for descriptions */
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .action-btn {
+    padding: 10px 20px;
+    background: #4ECCA3; /* Teal for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .action-btn.secondary {
+    background: #FF8C42; /* Warm orange for secondary buttons */
+  }
+  
+  .action-btn:hover {
+    background: #323232; /* Neutral color for hover effect */
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #232526, #414345); /* Sleek gray gradient for a modern look */
+    color: #F3F4F6; /* Soft light gray for text */
+  }
+  
+  .footer-links a {
+    margin: 0 10px;
+    color: #9CA3AF; /* Neutral gray for links */
+    text-decoration: none;
+    transition: color 0.3s, transform 0.2s;
+  }
+  
+  .footer-links a:hover {
+    color: #4ECCA3; /* Teal for hover effect */
+    transform: scale(1.1); /* Adds a slight zoom for interaction */
+  }
+  

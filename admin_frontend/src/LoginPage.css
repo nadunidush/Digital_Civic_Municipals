@@ -1,0 +1,76 @@
+.login-container {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, #FFDEE9, #B5FFFC); /* Pastel gradient */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    background: rgba(255, 255, 255, 0.9); /* Subtle white box */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Elegant shadow for depth */
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+  }
+  
+  .login-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #FF7A85; /* Bright and inviting color for text */
+  }
+  
+  .login-input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #67EACA; /* Soft teal border */
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .login-input:focus {
+    border-color: #FFABAB; /* Warm pink border on focus */
+    background: rgba(255, 235, 235, 0.8); /* Subtle pink effect */
+  }
+  
+  .login-button {
+    background: linear-gradient(45deg, #808080, #3fada8); /* Bold gradient for button */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .login-button:hover {
+    background: linear-gradient(45deg, #808080, #3fada8); /* Change gradient for hover */
+    transform: scale(1.05);
+  }
+  
+  .login-footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #676767; /* Neutral footer text */
+  }
+  
+  .login-footer a {
+    color: #FF6FD8; /* Vibrant and visible color for the link */
+    text-decoration: none;
+    font-weight: bold; /* Makes the link text stand out */
+  }
+  
+  .login-footer a:hover {
+    text-decoration: underline;
+    color: #FFC75F; /* Adds a hover effect */
+  }
+  

@@ -1,0 +1,2 @@
+C:/OldLapFilesNadun/Nadun folder/NSBM/Third Year/Computing Individual Project/digital_civic/citizen_side/citizen_frontend/android/app/.cxx/Debug/4o7085d2/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/OldLapFilesNadun/Nadun folder/NSBM/Third Year/Computing Individual Project/digital_civic/citizen_side/citizen_frontend/android/app/.cxx/Debug/4o7085d2/armeabi-v7a/CMakeFiles/rebuild_cache.dir
