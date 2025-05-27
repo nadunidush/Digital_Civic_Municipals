@@ -41,11 +41,12 @@ router.get("/citizen-feedback/:departmentName", async (req, res) => {
             description: feedback.description,
             userName: feedback.userId ? feedback.userId.userName : "Unknown",
             email: feedback.userId ? feedback.userId.email : "No email",
-            image: feedback.userId && feedback.userId.image.length > 0 ? feedback.userId.image[0].url : "https://via.placeholder.com/50",
+            image: feedback.userId && feedback.userId.image.length > 0 ? feedback.userId.image[0].url : "https://img.freepik.com/premium-photo/young-man-isolated-blue_1368-124991.jpg?semt=ais_hybrid&w=740",
             departmentName: department.departmentName, // Add department name to response
         }));
 
         res.status(200).json(formattedFeedbacks);
+
     } catch (error) {
         console.error("Error fetching feedback:", error);
         res.status(500).json({ message: "Error retrieving feedback.", error: error.message });

@@ -63,6 +63,14 @@ function LoginPage() {
                   },
               });
               break;
+          case "Lighting Of Street":
+              navigate("/allcomplaintdep", {
+                  state: {
+                      departmentName: data.department[0]?.departmentName || "",
+                      complaints: data.department.flatMap((dept) => dept.complaintId) || [],
+                  },
+              });
+              break;
           case "Waste Team Leader":
               navigate("/allcomplaintleader", {
                   state: {
@@ -73,6 +81,15 @@ function LoginPage() {
               });
               break;
           case "Road Team Leader":
+            navigate("/allcomplaintleader", {
+                state: {
+                  endDate: data.endDate || "No deadline provided",
+                  departmentName: data.teamleader[0]?.departmentName || "",
+                  complaints: data.teamleader?.flatMap((workLeader) => workLeader.complaintId) || [],
+                },
+            });
+            break;
+          case "Lighting Team Leader":
             navigate("/allcomplaintleader", {
                 state: {
                   endDate: data.endDate || "No deadline provided",

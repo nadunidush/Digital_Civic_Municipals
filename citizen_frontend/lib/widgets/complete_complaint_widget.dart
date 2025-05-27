@@ -31,6 +31,7 @@ class CompleteComplaintWidget extends StatefulWidget {
 }
 
 class _CompleteComplaintWidgetState extends State<CompleteComplaintWidget> {
+  TextEditingController feedbackController = TextEditingController();
   int currentIndex = 0; // State variable to track current image index
 
   void showNextImage() {
@@ -269,8 +270,6 @@ class _CompleteComplaintWidgetState extends State<CompleteComplaintWidget> {
                     showDialog(
                       context: context,
                       builder: (BuildContext context) {
-                        TextEditingController feedbackController =
-                            TextEditingController();
                         return Dialog(
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10),

@@ -28,43 +28,9 @@ class _FileFormComplaintState extends State<FileFormComplaint> {
   List<String> _uploadedImageUrls = [];
   bool _isUploading = false;
 
-  /* My Code*/
 
-  // Future<void> getImages() async {
-  //   final List<XFile>? images = await _picker.pickMultiImage();
 
-  //   if (images != null && images.isNotEmpty) {
-  //     setState(() => _image = images);
-  //   } else {
-  //     print("No images selected");
-  //   }
-  // }
 
-  // Future<String?> uploadImage(XFile image) async {
-  //   final url = "https://api.cloudinary.com/v1_1/di8cecggr/image/upload";
-  //   final request = http.MultipartRequest("POST", Uri.parse(url));
-
-  //   request.fields['upload_preset'] = "upload_images"; // Set in Cloudinary
-  //   request.files.add(await http.MultipartFile.fromPath('file', image.path));
-
-  //   try {
-  //     final response = await request.send();
-  //     final responseData = await response.stream.bytesToString();
-  //     final jsonResponse = json.decode(responseData);
-
-  //     if (response.statusCode == 200) {
-  //       return jsonResponse['secure_url']; // Cloudinary URL
-  //     } else {
-  //       print("Failed to upload image: ${jsonResponse['error']['message']}");
-  //       return null;
-  //     }
-  //   } catch (e) {
-  //     print("Error uploading image: $e");
-  //     return null;
-  //   }
-  // }
-
-  /*Perplexity Code */
   Future<void> selectImages() async {
     final List<XFile>? images = await _picker.pickMultiImage();
     if (images != null && images.isNotEmpty) {
@@ -162,61 +128,6 @@ class _FileFormComplaintState extends State<FileFormComplaint> {
     }
   }
 
-  /*My Codes */
-  // Future<void> _uploadComplaint() async {
-  //   List<String> imageUrls = [];
-
-  //   if (_image != null && _image!.isNotEmpty) {
-  //     for (var file in _image!) {
-  //       String? imageUrl = await uploadImage(file);
-  //       if (imageUrl != null) {
-  //         imageUrls.add(imageUrl);
-  //       } else {
-  //         print('Error uploading image: ${file.name}');
-  //       }
-  //     }
-  //   }
-
-  //   var request = http.MultipartRequest(
-  //       'POST', Uri.parse("http://${env.IP_ADDRESS}:8080/complaint"));
-
-  //   request.fields['title'] = _titleController.text;
-  //   request.fields['description'] = _descriptionController.text;
-  //   request.fields['url'] = _urlController.text;
-  //   request.fields['pLevel'] = _pLevelController.text;
-
-  //   // Add images URLs to request
-  //   request.fields['files'] = jsonEncode(imageUrls);
-  //   print(jsonEncode(imageUrls));
-
-  //   try {
-  //     var response = await request.send();
-  //     final respStr = await response.stream.bytesToString();
-  //     print(respStr);
-
-  //     if (response.statusCode == 200) {
-  //       ScaffoldMessenger.of(context).showSnackBar(
-  //         SnackBar(
-  //           content: Text("Complaint Created Successfully"),
-  //         ),
-  //       );
-  //       Navigator.push(context,
-  //           MaterialPageRoute(builder: (context) => AllComplaintsPage()));
-  //     } else {
-  //       ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-  //         content: Text(
-  //           "Failed to create complaint",
-  //         ),
-  //       ));
-  //     }
-  //   } catch (e) {
-  //     ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-  //       content: Text(
-  //         "Failed to create complaint: ${e.toString()}",
-  //       ),
-  //     ));
-  //   }
-  // }
 
   @override
   Widget build(BuildContext context) {
